@@ -17,6 +17,8 @@ git branch gh-pages
 
 git checkout gh-pages
 
-git remote add AmanYadavB 
+git remote add AmanYadavB https://github.com/AmanYadavB/Meeting-App.git
+
+git push AmanYadavB
 
 cd -
