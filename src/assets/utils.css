@@ -1,0 +1,161 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link-plain{
+    text-decoration: none;
+    color: black;
+
+}
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5px;
+}
+
+.p1{
+    padding: 0.5em;
+}
+.p2{
+    padding: 1em;
+}
+.m1{
+    margin: 0.5em;;
+}
+.m2el{
+    margin: 1.5em 0;
+}
+.m2{
+    margin: 1em;
+}
+.d-none{
+    display: none;
+}
+.vis-none{
+    visibility: hidden;
+}
+.m-1{
+    margin-top: -1em;
+}
+
+.border{
+    border: 0.1px solid rgb(214, 214, 214);
+    border-radius: 0.3em;
+}
+hr.opa{
+    color: rgb(218, 218, 218);
+}
+.height-50{
+    height: 50%;
+}
+.color{
+    background-color: rgb(113, 201, 201);
+}
+.font-bold{
+    font-weight: 600;
+}
+.al-cent{
+    align-items: center;
+}
+.jc-cent{
+    justify-content: center;
+}
+.jc-space-bt{
+    justify-content: space-between;
+}
+.jc-left{
+    justify-content: left;
+}
+.h3{
+    height: 8em;
+}
+.overflow{
+    overflow: hidden;
+}
+.rvcolor{
+    color: white;
+}
+.flex-basis-50{
+    flex-basis: 48%;
+}
+.flex-basis-25{
+    flex-basis: 25%;
+}
+.flex-basis-100{
+    flex-basis: 100%;
+}
+.flex-basis-10{
+    flex-basis: 10%;
+}
+.h1{
+    height: 1em;
+    
+}
+.h2{
+    height: 2.4em;
+}
+h1{
+    text-align: left;
+}
+.opa{
+    opacity: 60%;
+}
+.opa2{
+    opacity: 65%;
+}
+.opa1{
+    opacity: 30%;
+}
+.mb{
+    margin-bottom: 0.5em;
+}
+.ml{
+    margin-left: 1.5em;
+}
+.mel
+{
+    margin: 0.5em 0 0.5em 0;
+}
+
+.button1{
+    height: 2.4em;
+    border-color: rgb(113, 201, 201);
+    border-style: none;
+    border-radius: 0.3em;
+    padding: 0 0.7em;
+    font-size: 1.01em;
+    color: white;
+}
+option{
+    background-color: rgb(195, 255, 255);
+}
+.font-larger{
+    font-size: 1.2em;
+}
+.dang-color{
+    background-color: crimson;
+}
+.error-msg{
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    height: fit-content;
+    margin-left: 0.5em;
+}
+.error-border{
+    border-color: rgb(255, 57, 57);
+    border-width: 0.5px;
+    border-style: solid;
+}
+.success-border{
+    border-color: rgb(25, 211, 25);
+    border-width: 0.7px;
+    border-style: solid;
+}
+.wait-margin{
+    margin-top: -8em;
+}
+@media only screen and (max-width : 1000px){
+    .error-msg{
+        margin-left: -4em;
+    }
+}

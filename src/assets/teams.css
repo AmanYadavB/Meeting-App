@@ -1,0 +1,74 @@
+.main-head{
+    margin: 0.5em 0 0.3em -0.3em;
+}
+.flex-basis-teams{
+    flex-basis: 29%;
+    width: 29%;
+    margin: 0 0.3em;
+}
+.dcolor{
+    background-color:rgb(0, 164, 185);
+}
+.number{
+    width: 10em;
+}
+.font-large,
+input:placeholder-shown{
+    font-size: 1.05em;
+    padding: 0.5em;
+}
+
+.pel{
+    padding: 0.5em 0.5em 0.5em 0;
+}
+.container{
+    margin-top: -0.5em;
+}
+.textarea{
+    height: 3em;
+}
+.h2{
+    height: 2em;
+}
+.container .p1{
+    padding: 0.3em;
+}
+.wait-margin{
+    margin: 0;
+}
+#team-container{
+    margin-top: 0.5em;
+    margin-left: 0em;
+}
+@media only screen and (max-width:1100px)
+{
+    .main-head{
+    margin: 0 0 0.3em -0.3em;
+    }
+    .flex-basis-teams{
+        flex-basis: 44%;
+        margin: 0.5em;
+        width: 44%;
+    }
+}
+@media only screen and (max-width:900px)
+{
+    .main-head{
+    margin: 0 0 0.3em -0.3em;
+    }
+    .flex-basis-teams{
+        flex-basis: 42%;
+        margin: 0.43em ;
+        width: 42%;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    .main-head{
+    margin: 0 0 0.3em -0.3em;
+    }
+    .flex-basis-teams{
+        margin-top: 0.5em;
+        flex-basis: 100%;
+    }
+}

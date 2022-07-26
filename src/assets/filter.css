@@ -1,0 +1,54 @@
+.ntcurr{
+    color: blue;
+}
+.notcurr{
+    border-bottom: 0.1px solid rgb(184, 184, 184);
+}
+.curr{
+    border-top: 0.1px solid rgb(184, 184, 184);
+    border-left: 0.1px solid rgb(184, 184, 184);
+    border-right: 0.1px solid rgb(184, 184, 184);
+}
+.pel{
+    padding: 0.5em 0.5em 0.5em 0;
+}
+.w-100{
+    width: 100%;
+}
+.select{
+    width: 4.2em;
+}
+.textarea{
+    height: 4em;
+}
+.textarea:placeholder-shown{
+    
+    font-size: medium;
+}
+.font-large,
+input:placeholder-shown{
+    font-size: 1.05em;
+    padding: 0.5em;
+}
+
+.form{
+    padding: 1em;
+}
+.dcolor{
+    background-color:rgb(0, 164, 185);
+}
+.number{
+    width: 10em;
+}
+.main-head{
+    margin: 0.5em 0 0.3em -0.3em;
+}
+.wait-margin{
+    margin: 0;
+}
+@media only screen and (max-width:700px)
+{
+    .main-head{
+        margin: 0 0 0.3em -0.3em;
+    }
+}

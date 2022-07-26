@@ -1,0 +1,68 @@
+.login{
+    flex-basis: 60%;
+    height: 100%;
+}
+.newhere{
+    flex-basis: 40%;
+}
+.container{
+    height: fit-content;
+    margin: 4.5em;
+}
+img{
+    height: 100%;
+}
+.icon{
+    margin-top: -1em;
+}
+form > div{
+    height: 2em;
+    width: 60%;
+}
+input{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.buttondiv{
+    width: 30%;
+}
+.button{
+    
+    border: 1px solid white;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+.button:hover{
+    cursor: pointer;
+}
+.margin-top{
+    margin: 25% 0;
+}
+h1{
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
+    .container{
+        height: auto;
+    }
+    .login{
+        flex-basis: 100%;
+        height: 65%;
+    }
+    .p1{
+        padding: 0;
+    }
+    .newhere{
+        flex-basis: 100%;
+        height: 35%;
+    }
+    .input-div{
+        width: 80%;
+    }
+    .margin-top{
+        margin-top: 1em;
+    }
+
+}
