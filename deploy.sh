@@ -13,6 +13,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:<AmanYadavB>/<Meeting-App>.git master:gh-pages
+git branch gh-pages
+
+git checkout gh-pages
+
+git push
 
 cd -
