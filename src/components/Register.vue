@@ -32,7 +32,7 @@
             
             <form class="flex jc-cent" id="form-login" action="" @submit.prevent="register">
                 <div id="invalid-msg" class="error-msg  jc-cent m-1"></div>
-                <div class="flex jc-cent opa m1 p1" >
+                <div class="flex jc-cent opa p1" >
                     <input type="text" name="name" id="name-input" placeholder="Name" v-model="form.name" @blur="$v.form.name.$touch()">
                 </div>
                 <div v-if="$v.form.name.$error" class="error-message">
@@ -40,7 +40,7 @@
                         <small>The name field can not be empty</small>
                       </div>
                 </div>
-                <div class="flex jc-cent opa m1 p1" >
+                <div class="flex jc-cent opa p1" >
                     <input type="email" name="mail" id="email-input" placeholder="Email" v-model="form.email" @blur="$v.form.email.$touch()">
                 </div>
                 <div v-if="$v.form.email.$error" class="error-message">
@@ -51,7 +51,7 @@
                         <small>Invalid email address</small>
                       </div>
                 </div>
-                <div class="flex jc-cent opa m1 p1" >
+                <div class="flex jc-cent opa p1" >
                     <input type="password" name="mail" id="cpassword-input" placeholder="Password" v-model="form.password" @blur="$v.form.password.$touch()">
                 </div>
                 <div v-if="$v.form.password.$error" class="error-message">
@@ -74,7 +74,7 @@
                           <small>The password must have at least 1 special character</small>
                       </div>
                 </div>
-                <div class="flex jc-cent opa m1 p1" >
+                <div class="flex jc-cent opa p1" >
                     <input type="password" name="mail" id="password-input" placeholder="Confirrm-Password" v-model="form.confirmPassword" @blur="$v.form.confirmPassword.$touch()">
                 </div>
                 <div v-if="$v.form.confirmPassword.$error" class="error-message">
@@ -214,10 +214,10 @@ form > div{
 input{
     width: 100%;
     height: 100%;
-    
+    padding-left: 0.5em;
 }
 input:placeholder-shown{
-    font-size: medium;
+    font-size: small;
 }
 .buttondiv{
     width: 30%;

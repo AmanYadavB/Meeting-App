@@ -10,6 +10,11 @@ const router = new Router({
     mode: 'history',
     routes: [
         {
+            name: 'login-page',
+            path: '/',
+            component: LoginPage
+        },
+        {
             name: 'calendar-page',
             path: '/calendar',
             component: CalanderPage

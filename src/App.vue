@@ -1,6 +1,5 @@
 <template>
   <div>
-    <MenuBar />
     <div class="container my-5">
       <router-view></router-view>
     </div>
@@ -8,13 +7,11 @@
 </template>
 
 <script>
-import MenuBar from './components/MenuBar.vue'
+//import router from './router'
 export default {
-  name: 'App',
-  components: {
-    MenuBar
+  name: 'App'
 }
-}
+
 </script>
 
 <style>

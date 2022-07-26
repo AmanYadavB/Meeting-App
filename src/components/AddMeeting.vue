@@ -1,5 +1,6 @@
 <template>
     <div>
+       <MenuBar />  
        <div>
         <h1 class="p1 font-arial main-head">Meetings</h1>
         <hr class="m-1 opa" />
@@ -146,9 +147,12 @@
 
 <script>
 import { addMeetings } from '@/services/meetings';
+import MenuBar from '../components/MenuBar.vue'
 export default {
   name: 'AddMeeting',
-  
+  components:{
+    MenuBar
+  },
   data(){
     return {
         attendees: '',

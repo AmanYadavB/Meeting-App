@@ -1,5 +1,6 @@
 <template>
     <div>
+      <MenuBar />
       <div>
         <h1 class="p1 font-arial main-head">Meetings</h1>
         <hr class="m-1 opa" />
@@ -109,9 +110,13 @@
 <script>
 import {required} from 'vuelidate/lib/validators'
 import format from 'date-fns/format'
+import MenuBar from '../components/MenuBar.vue'
 import {searchMeetings,getRegisteredUsers,addAttendeeToMeeting,removeAttendee} from '../services/meetings'
 export default {
   name: 'FilterMeetingsPage',
+  components:{
+    MenuBar
+  },
   data() {
     return {
       status: 'LOADED',

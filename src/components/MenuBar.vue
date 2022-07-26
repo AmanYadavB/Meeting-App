@@ -12,7 +12,7 @@
                     </div>
                 </div>
             </nav>
-            <nav class="nav font-bold font-arial" id="nav" v-if="menu">
+            <nav class="nav font-bold font-arial " v-if="menu">
                 <div class="nav-items-left flex">
                     <div class="nav-items p1 current">
                         <router-link to="/calendar" class="link-plain " >Calender</router-link>
@@ -53,6 +53,7 @@ export default {
   methods:{
     toggle(){
         this.menu = !this.menu;
+        console.log(this.$router.name);
     },
     getUserName(){
         return `${store.state.auth.name}`;

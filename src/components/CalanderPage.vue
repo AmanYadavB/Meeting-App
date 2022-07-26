@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+      <MenuBar />
       <div class="font-arial m2el">
                 <h1 class="p1 main-head">Calender</h1>
                 <hr class=" opa" />
@@ -54,8 +55,14 @@
 
 <script>
 import {fetchCalendarMeetings} from '../services/meetings.js'
+import MenuBar from '../components/MenuBar.vue'
+//import store from '@/store/index.js';
+//import router from '@/router/index.js';
 export default {
   name: 'CalanderPage',
+  components:{
+    MenuBar
+  },
   data(){
     return {
         meetings: [],
@@ -99,11 +106,7 @@ export default {
                     return {height: `${h}em`};
                 },
                
-    },
-    /*created: () =>{
-                    if(!this.$store.isAuthenticated)
-                        this.$router.push('login-page');
-                }
+    }
     //methods: {
          
                 //const date=this.date;

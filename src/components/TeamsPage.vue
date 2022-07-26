@@ -1,5 +1,6 @@
 <template>
     <div>
+      <MenuBar />
       <div>
         <h1 class="main-head p1 font-arial" >Teams</h1>
         <hr class="m-1 opa" />
@@ -21,7 +22,7 @@
                 <div class="font-larger " >
                     {{team.shortName}}
                 </div>
-                <div class="font-larger opa2 h2 mel pel" >
+                <div class="font-larger opa2 h2 mel pel" style="overflow:auto;">
                     {{team.description}}
                 </div>
                 <div class="mel pel">
@@ -87,9 +88,13 @@
 
 <script>
 import {getRegisteredUsers} from '../services/meetings'
+import MenuBar from '../components/MenuBar.vue'
 import {fetchTeams,addMemberToTeam,addTeams,excuseMyself} from '../services/teams'
 export default {
   name: 'TeamPage',
+  components:{
+    MenuBar
+  },
   data(){
     return {
       status: 'LOADING',
