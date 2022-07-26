@@ -17,6 +17,6 @@ git branch gh-pages
 
 git checkout gh-pages
 
-git push
+git remote add AmanYadavB 
 
 cd -
